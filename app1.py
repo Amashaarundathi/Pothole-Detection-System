@@ -10,7 +10,7 @@ from collections import deque
 # Load YOLO model
 # ===============================
 
-model = YOLO("final.pt")  # replace with your trained model path
+model = YOLO("run.pt")  # replace with your trained model path
 
 # ===============================
 # Calibration constants
